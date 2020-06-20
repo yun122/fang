@@ -1,0 +1,180 @@
+body{
+	margin: 0px;
+}
+
+#container{
+	width: 1200px;
+	height: 753px;
+	margin: 0 auto;
+}
+
+#img1{
+	width: 320px;
+	height: 509px;
+	background-image: url(../images/in4.jpg);
+	background-repeat: no-repeat;
+	float:left; 
+	margin-top: 200px;
+	border-radius:10px;
+}
+
+#con1{
+	width: 450px;
+	height: 623px;
+	float: left;
+	margin: 0 auto;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #404040;
+	margin-top: 130px;
+	margin-left: 110px;
+	line-height: 1.5;
+}
+
+#img2{
+	width: 320px;
+	height: 509px;
+	background-image: url(../images/in6.jpg);
+	background-repeat: no-repeat;
+	float:right;
+	border-radius:10px;
+}
+
+#content {
+	width: 1200px;
+	height: 200px;
+	overflow: hidden;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 32px;
+	color: #404040;
+	line-height: 1.5;
+	margin-top: 0 auto;
+	text-align: center;
+	margin-left: 150px;
+	font-weight: bold;
+}
+
+#box1{
+	height: 500px;
+	width: 100%;
+	background-color: #b1bbb8;
+}
+
+#box2{
+	height: 500px;
+	width: 100%;
+	background-color: #eee7f9;
+}
+
+#app1{
+	height: 440px;
+	width: 500px;
+	float: left;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 24px;
+	line-height: 1.2;
+	color: white;
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+#pic1{
+	height: 500px;
+	width: 800px;
+	float: right;
+}
+
+#app2{
+	height: 440px;
+	width: 500px;
+	float: left;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 24px;
+	line-height: 1.2;
+	margin-top: 60px;
+	color: #b1bbb8;
+	margin-left: 200px;
+}
+
+#pic2{
+	height: 500px;
+	width: 800px;
+	float: right;
+}
+
+#box3{
+	height: 500px;
+	width: 100%;
+	background-color: #c8b9a6;
+}
+
+#app3{
+	height: 440px;
+	width: 500px;
+	float: left;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 24px;
+	line-height: 1.2;
+	margin-top: 60px;
+	color: white;
+	margin-left: 200px;
+}
+
+#pic3{
+	height: 300px;
+	width: 400px;
+	float: right;
+	margin-top: 100px;
+	margin-right: 250px;
+}
+
+#content1 {
+	width: 1200px;
+	height: 200px;
+	overflow: hidden;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 32px;
+	color: #404040;
+	line-height: 1.5;
+	margin-top: 0 auto;
+	text-align: center;
+	margin-left: 150px;
+	font-weight: bold;
+}
+
+#box4{
+	margin-left: 450px;
+}
+
+#demo{
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size:24px;
+	color: #404040;
+}
+
+#submit{
+	width: 500px;
+	height: 50px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 480px;
+}
+
+button{
+	-webkit-transition-duration: 0.4s;  /*transition-duration 属性规定完成过渡效果需要花费的时间，-webkit-transition-duration属性是为了兼容浏览器Safari*/
+	transition-duration: 0.4s;
+	text-align: center;
+	background-color: #c2cadd;
+	border-radius:20px;  /*border-radius 属性可以让您为元素添加圆角边框*/
+	font-weight: bold;
+    color: #0070a3;
+    border: 1px solid #74b2e2;
+    width: 100px;
+    height: 45px;
+    font-size: 14px;
+}
+
+button:hover{
+	background-color: #eef6fc;
+}

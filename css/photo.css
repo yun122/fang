@@ -1,0 +1,140 @@
+body{
+	margin: 0px;
+}
+
+#header{
+	background-color: #f4f6f6;
+	width: 100%;
+	height: 2000px;
+}
+
+#headpic{
+	background-color: white;
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#intro{
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 18px;
+	height: 100px;
+	width: 500px;
+	margin-top: 30px;
+	float: left;
+	margin-left: 20px;
+}
+
+#submit{
+	width: 500px;
+	height: 50px;
+	text-align: center;
+	float: right;
+	margin-top: 50px;
+/*	margin-left: 480px;*/
+}
+
+button{
+	-webkit-transition-duration: 0.4s;  /*transition-duration 属性规定完成过渡效果需要花费的时间，-webkit-transition-duration属性是为了兼容浏览器Safari*/
+	transition-duration: 0.4s;
+	text-align: center;
+	background-color: #2d8cf0;
+	border-radius:20px;  /*border-radius 属性可以让您为元素添加圆角边框*/
+	font-weight: bold;
+    color: #0070a3;
+    border: 1px solid #74b2e2;
+    width: 100px;
+    height: 45px;
+    font-size: 14px;
+    color: white;
+}
+
+button:hover{
+	background-color: #9da8ba;
+}
+
+#fans{
+	width: 100px;
+	height: 50px;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 14px;
+	color: gery;
+	text-align: center;
+	margin-left: 45px;
+}
+
+table{
+	border-collapse: collapse;  /*如果没有规定 !DOCTYPE，border-collapse 属性可能会引起意想不到的错误。*/
+	width: 100px;
+	height: 50px;
+}
+
+table tbody tr{
+	display: block;
+ 	width: 100px;
+ 	height: 20px;
+}
+
+table tbody tr td{
+	display: inline-block;
+ 	width: 42px;
+    height: 20px;
+}
+
+#like{
+	width: 300px;
+	height: 50px;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 14px;
+	color: grey;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.submit1{
+	width: 500px;
+	height: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#button1{
+	-webkit-transition-duration: 0.4s;  /*transition-duration 属性规定完成过渡效果需要花费的时间，-webkit-transition-duration属性是为了兼容浏览器Safari*/
+	transition-duration: 0.4s;
+	text-align: center;
+	background-color: #2d8cf0;
+	border-radius:10px;  /*border-radius 属性可以让您为元素添加圆角边框*/
+	font-weight: bold;
+    color: #0070a3;
+    border: 1px solid #74b2e2;
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+}
+
+#pic1{
+	margin-left: 170px;
+}
+
+#pic2{
+	margin-left: 170px;
+}
+
+#pic3{
+	margin-left: 170px;
+}
+
+#pic4{
+	margin-left: 170px;
+}
+
+#pic5{
+	margin-left: 170px;
+}
+
+#pic6{
+	margin-left: 170px;
+}

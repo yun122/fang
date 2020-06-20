@@ -1,0 +1,139 @@
+@charset "utf-8";
+body{
+	margin: 0 auto;
+}
+
+.innerframe{
+	border-collapse: separate;   /* separate默认值。边框会被分开。不会忽略 border-spacing 和 empty-cells 属性*/
+	border-spacing: 1px;   /*设置相邻单元格的边框间的距离（仅用于“边框分离”模式）*/
+	margin: 20px auto 40px auto; 
+	width: 1125.6px;
+}
+
+#caption_jd{
+	border-bottom: 2px solid #c2cadd;
+	margin:0 auto;
+	width: 1125.4px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+#caption_jd_1{
+	float: left;
+	padding-top: 4px;
+}
+
+#caption_jd_2{
+	text-align: center;
+	font-family: "plantc", "Source Han Serif", serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 5px;
+	width: 942.6px;
+	height: 150px;
+	padding-top: 3px;
+}
+
+#introduction{
+	margin: 0 auto;
+	line-height: 25px;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	margin-top: 30px;
+	margin-left: 30px;
+	color: #1d2d45;
+}
+
+.formtitle{
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: #1d2d45;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+table{
+	border-collapse: collapse;  /*如果没有规定 !DOCTYPE，border-collapse 属性可能会引起意想不到的错误。*/
+	margin: 0 auto;
+	border: 1px #7ba9d0 solid;
+}
+
+table thead{
+	width: 1121.8px;
+	height: 27.6px;
+	line-height: 27.6px;
+}
+
+table thead tr{
+	display: block;
+    background-color: #7ba9d0;
+	width: 1121.8px;
+	height: 27.6px;
+}
+
+table thead tr th{
+	display: block;
+	font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #7ba9d0;
+    text-align: left;
+    margin-top: 1px;
+    /*color: #1d2d45;*/
+    color: white;
+    width: 1121.8px;
+	height: 27.6px;
+}
+
+table thead tr th p{
+	width: 1121.8px;
+	height: 27.6px;
+	margin:0 auto;
+	padding-left: 10px;
+}
+
+table tbody{
+	display: block;
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+table tbody tr{
+	font-size: 12px;
+	line-height: 1.3;
+	display: block;
+	margin-bottom: 5px;
+}
+
+table tbody tr td input{
+	vertical-align:bottom; 
+}
+
+#submit{
+	width: 1122.4px;
+	height: 45px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+button{
+	-webkit-transition-duration: 0.4s;  /*transition-duration 属性规定完成过渡效果需要花费的时间，-webkit-transition-duration属性是为了兼容浏览器Safari*/
+	transition-duration: 0.4s;
+	text-align: center;
+	background-color: #7ba9d0;
+	border: 2px solid #4CAF50;
+	border-radius:5px;  /*border-radius 属性可以让您为元素添加圆角边框*/
+	font-weight: bold;
+    color: white;
+    border: 1px solid #7ba9d0;
+    width: 100px;
+    height: 45px;
+    font-size: 14px;
+}
+
+button:hover{
+	background-color: #c2cadd;
+}
